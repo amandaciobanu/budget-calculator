@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bdb538f-2062-4ad0-b4b1-d198bca5eccc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExpensesList.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Expense.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expense.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExpenseList.svelte" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599588246501</updated>
       <workItem from="1599588247594" duration="3639000" />
-      <workItem from="1599636504713" duration="9391000" />
+      <workItem from="1599636504713" duration="10927000" />
     </task>
     <servers />
   </component>
