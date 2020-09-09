@@ -13,7 +13,13 @@
   //variables
   let expenses  =[...expensesData];
   
+  //set editing variables
+  let setName = '';
+  let setAmount = null;
+  let setId = null;
+  
   //reactive
+  $: isEditing = setId ? true : false;
   $: total = expenses.reduce((acc, curr)=> {
     return (acc += curr.amount)
   },0)
@@ -30,10 +36,18 @@
   function addExpense ({name, amount}){
     let expense = {id: Math.random() * Date.now(), name, amount};
     expenses = [expense, ...expenses]
+  }
   
+  function setModifiedExpense(id){
+    let expense = expenses.find(item => item.id === id);
+    setId = expense.id;
+    setName = expense.name;
+    setAmount = expense.amount;
   }
 //context
-  setContext('remove', removeExpense)
+  setContext('remove', removeExpense);
+  setContext('modify', setModifiedExpense);
+
 </script>
 
 <!--<style></style>-->
@@ -43,7 +57,7 @@
 <!--HTML-->
 <Navbar />
 <main class="content">
-  <ExpenseForm {addExpense}/>
+  <ExpenseForm {addExpense} name={setName} amount={setAmount} {isEditing}/>
   <Totals title="total expenses"  {total}/>
   <ExpensesList {expenses} />
   <button type="button" class="btn btn btn-primary btn-block" on:click={clearExpenses}>

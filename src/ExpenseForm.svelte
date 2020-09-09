@@ -1,8 +1,8 @@
 <script>
   import Title from './Tittle.svelte';
   import Tittle from "./Tittle.svelte";
-  let name = '';
-  let amount = null;
+  export let name = '';
+  export let amount = null;
   export let addExpense
   
   $: isEmpty = !name || !amount
