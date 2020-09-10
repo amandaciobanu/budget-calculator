@@ -85,7 +85,7 @@
   })
   
   afterUpdate(() => {
-    setLocalStorage()
+    setLocalStorage();
   })
   
 </script>
