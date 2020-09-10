@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bdb538f-2062-4ad0-b4b1-d198bca5eccc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Modal.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
     </list>
@@ -37,6 +38,7 @@
         <option value="Expense" />
         <option value="Totals" />
         <option value="ExpenseForm" />
+        <option value="Modal" />
       </list>
     </option>
   </component>
@@ -84,7 +86,7 @@
       <workItem from="1599588247594" duration="3639000" />
       <workItem from="1599636504713" duration="28241000" />
       <workItem from="1599675196855" duration="252000" />
-      <workItem from="1599722032434" duration="4588000" />
+      <workItem from="1599722032434" duration="6282000" />
     </task>
     <servers />
   </component>
