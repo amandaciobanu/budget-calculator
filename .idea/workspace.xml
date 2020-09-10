@@ -22,7 +22,6 @@
     <list default="true" id="8bdb538f-2062-4ad0-b4b1-d198bca5eccc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expense.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expense.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ExpenseForm.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpenseForm.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +84,8 @@
       <updated>1599588246501</updated>
       <workItem from="1599588247594" duration="3639000" />
       <workItem from="1599636504713" duration="28241000" />
+      <workItem from="1599675196855" duration="252000" />
+      <workItem from="1599722032434" duration="1756000" />
     </task>
     <servers />
   </component>
@@ -101,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1239" y="42" width="1706" height="1758" key="#HTML" timestamp="1599636941463">

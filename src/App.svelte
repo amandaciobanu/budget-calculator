@@ -44,6 +44,15 @@
     setName = expense.name;
     setAmount = expense.amount;
   }
+  
+  function editExpense({name, amount}){
+    expenses = expenses.map(item => {
+      return item.id === setId ? {...item, name, amount}:{...item};
+    });
+    setId = null;
+    setAmount = null;
+    setName = '';
+  }
 //context
   setContext('remove', removeExpense);
   setContext('modify', setModifiedExpense);
@@ -57,7 +66,7 @@
 <!--HTML-->
 <Navbar />
 <main class="content">
-  <ExpenseForm {addExpense} name={setName} amount={setAmount} {isEditing}/>
+  <ExpenseForm {addExpense} name={setName} amount={setAmount} {isEditing} {editExpense}/>
   <Totals title="total expenses"  {total}/>
   <ExpensesList {expenses} />
   <button type="button" class="btn btn btn-primary btn-block" on:click={clearExpenses}>
