@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bdb538f-2062-4ad0-b4b1-d198bca5eccc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expense.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expense.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExpensesList.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpensesList.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modal.svelte" afterDir="false" />
-    </list>
+    <list default="true" id="8bdb538f-2062-4ad0-b4b1-d198bca5eccc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +82,7 @@
       <workItem from="1599588247594" duration="3639000" />
       <workItem from="1599636504713" duration="28241000" />
       <workItem from="1599675196855" duration="252000" />
-      <workItem from="1599722032434" duration="9800000" />
+      <workItem from="1599722032434" duration="10402000" />
     </task>
     <servers />
   </component>
