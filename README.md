@@ -1,4 +1,6 @@
-[calculator-svelte.netlify.app](https://calculator-svelte.netlify.app/)
+### *Available:* [calculator-svelte.netlify.app](https://calculator-svelte.netlify.app/)
+
+---
 
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
