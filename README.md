@@ -1,3 +1,3 @@
-### *Available:* [https://expense-calculator-svelte.netlify.app/](https://calculator-svelte.netlify.app/)
+### *Available:* [https://expense-calculator-svelte.netlify.app](https://expense-calculator-svelte.netlify.app)
 
 ----
