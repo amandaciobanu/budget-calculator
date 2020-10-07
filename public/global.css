@@ -3,14 +3,14 @@
 Fonts
 ======
 */
-@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
 /* 
 ====== 
 Variables 
 ======
 */
 :root {
-  --primaryColor: #2892d7;
+  --primaryColor: #6cbbed;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -34,7 +34,7 @@ Global Styles
 }
 
 body {
-  font-family: "Catamaran", sans-serif;
+  font-family: 'Comfortaa', cursive;
   color: var(--mainBlack);
   background: var(--mainGrey);
   line-height: 1.4;
@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Catamaran", sans-serif;
+  font-family: 'Comfortaa', cursive;
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }
@@ -153,7 +153,7 @@ Navbar
   transition: var(--mainTransition);
 }
 .nav-btn:hover {
-  color: var(--darkGrey);
+  color: var(--mainWhite);
 }
 /* 
 ====== 
